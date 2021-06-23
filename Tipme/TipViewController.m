@@ -35,7 +35,7 @@
         [self hideLabels];
     }
     
-    if (self.billAmountField.text.length != 0 && self.labelsContainmentView == 0){
+    if (self.billAmountField.text.length != 0 && self.labelsContainmentView.alpha == 0){
         [self showLabels];
     }
     
